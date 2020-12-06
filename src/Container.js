@@ -94,7 +94,7 @@ const Container = () => {
                         }),
                     }}
                 >
-                    Hello
+                    Login
                 </animated.div>
                 <animated.div
                     className="description-item2"
@@ -106,8 +106,7 @@ const Container = () => {
                     }}
                 >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    do.
                 </animated.div>
                 <animated.div
                     className="description-item3"
@@ -118,8 +117,8 @@ const Container = () => {
                         }),
                     }}
                 >
-                    Some Random Sideways Text Description of the app telling
-                    people what it's about.
+                    Some Random Sideways Text Description of the app's
+                    functionality.
                 </animated.div>
             </div>
             <div className="navDots">

@@ -27,7 +27,9 @@
 
         div {
             position: absolute;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 70%;
             height: 100%;
         }
@@ -38,6 +40,11 @@
 
         .description-item3 {
             left: -200%;
+        }
+
+        .description-item1 {
+            border-radius: 5px;
+            box-shadow: inset 0px 0px 0px 0.5px #000000;
         }
     }
 
