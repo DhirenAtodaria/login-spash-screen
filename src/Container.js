@@ -1,19 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Container.scss";
 import { useSpring, animated } from "react-spring";
 import { useDrag } from "react-use-gesture";
-import person from "./images/1stPersonTransparent.png";
 
 const Container = () => {
-    const [active, setActive] = useState(false);
-
     const [{ x }, set] = useSpring(() => ({
         x: 0,
     }));
 
     const bind = useDrag(
-        ({ movement: [x], velocity, down, direction: [dx], tap }) => {
-            console.log("XX: ", x, down);
+        ({ movement: [x], down, direction: [dx], tap }) => {
             if (!down) {
                 if (x > -100) {
                     set({ x: 0 });
@@ -86,7 +82,6 @@ const Container = () => {
             </div>
             <div className="description">
                 <animated.div
-                    className="description-item1"
                     style={{
                         x: x.to({
                             range: [-400, -200, 0],
@@ -94,7 +89,7 @@ const Container = () => {
                         }),
                     }}
                 >
-                    Login
+                    hello
                 </animated.div>
                 <animated.div
                     className="description-item2"
@@ -161,6 +156,13 @@ const Container = () => {
                         }),
                     }}
                 />
+            </div>
+            <div className="sign-up">
+                <div className="loginButton">Login</div>
+                <div>
+                    <span className="create">Don't have an account?</span>{" "}
+                    <span>Sign Up</span>
+                </div>
             </div>
         </div>
     );

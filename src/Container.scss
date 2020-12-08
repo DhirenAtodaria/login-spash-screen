@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
 .container {
     border-radius: 5px;
     background-color: #fff4e9;
@@ -5,12 +6,14 @@
     width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 
     .title {
-        font-family: ReneBold;
-        font-size: 2.5em;
+        position: relative;
+        font-size: 3.5em;
+        font-family: "Damion", cursive;
+        top: 2%;
     }
 
     .description {
@@ -23,7 +26,6 @@
         overflow: hidden;
         font-family: ReneBold;
         font-size: 1.2em;
-        opacity: 0.8;
 
         div {
             position: absolute;
@@ -32,6 +34,7 @@
             align-items: center;
             width: 70%;
             height: 100%;
+            opacity: 0.8;
         }
 
         .description-item2 {
@@ -41,10 +44,28 @@
         .description-item3 {
             left: -200%;
         }
+    }
 
-        .description-item1 {
-            border-radius: 5px;
+    .sign-up {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 55px;
+        .loginButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            width: 70%;
+            height: 35px;
+            border-radius: 50px;
             box-shadow: inset 0px 0px 0px 0.5px #000000;
+            margin-bottom: 10px;
+        }
+        .create {
+            opacity: 0.5;
         }
     }
 
@@ -52,6 +73,7 @@
         display: flex;
         justify-content: space-between;
         width: 72px;
+        margin-top: 40px;
     }
 
     .navDot {
@@ -66,7 +88,6 @@
         overflow: hidden;
         width: 100%;
         user-select: none;
-
         div {
             position: absolute;
             height: 100%;
