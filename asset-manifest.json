@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/login-demo/static/css/main.c51962fa.chunk.css",
-    "main.js": "/login-demo/static/js/main.2d7afd3f.chunk.js",
-    "main.js.map": "/login-demo/static/js/main.2d7afd3f.chunk.js.map",
-    "runtime-main.js": "/login-demo/static/js/runtime-main.7639c89d.js",
-    "runtime-main.js.map": "/login-demo/static/js/runtime-main.7639c89d.js.map",
-    "static/js/2.4e7820a9.chunk.js": "/login-demo/static/js/2.4e7820a9.chunk.js",
-    "static/js/2.4e7820a9.chunk.js.map": "/login-demo/static/js/2.4e7820a9.chunk.js.map",
-    "static/js/3.fc3758c8.chunk.js": "/login-demo/static/js/3.fc3758c8.chunk.js",
-    "static/js/3.fc3758c8.chunk.js.map": "/login-demo/static/js/3.fc3758c8.chunk.js.map",
-    "index.html": "/login-demo/index.html",
-    "static/css/main.c51962fa.chunk.css.map": "/login-demo/static/css/main.c51962fa.chunk.css.map",
-    "static/js/2.4e7820a9.chunk.js.LICENSE.txt": "/login-demo/static/js/2.4e7820a9.chunk.js.LICENSE.txt",
-    "static/media/Container.scss": "/login-demo/static/media/3rdPersonTransparent.517dc4f5.png",
-    "static/media/index.css": "/login-demo/static/media/ReneLight.2d813443.otf"
+    "main.css": "/login-spash-screen/static/css/main.30627ebc.chunk.css",
+    "main.js": "/login-spash-screen/static/js/main.2d7afd3f.chunk.js",
+    "main.js.map": "/login-spash-screen/static/js/main.2d7afd3f.chunk.js.map",
+    "runtime-main.js": "/login-spash-screen/static/js/runtime-main.fe8d4df4.js",
+    "runtime-main.js.map": "/login-spash-screen/static/js/runtime-main.fe8d4df4.js.map",
+    "static/js/2.4e7820a9.chunk.js": "/login-spash-screen/static/js/2.4e7820a9.chunk.js",
+    "static/js/2.4e7820a9.chunk.js.map": "/login-spash-screen/static/js/2.4e7820a9.chunk.js.map",
+    "static/js/3.fc3758c8.chunk.js": "/login-spash-screen/static/js/3.fc3758c8.chunk.js",
+    "static/js/3.fc3758c8.chunk.js.map": "/login-spash-screen/static/js/3.fc3758c8.chunk.js.map",
+    "index.html": "/login-spash-screen/index.html",
+    "static/css/main.30627ebc.chunk.css.map": "/login-spash-screen/static/css/main.30627ebc.chunk.css.map",
+    "static/js/2.4e7820a9.chunk.js.LICENSE.txt": "/login-spash-screen/static/js/2.4e7820a9.chunk.js.LICENSE.txt",
+    "static/media/Container.scss": "/login-spash-screen/static/media/3rdPersonTransparent.517dc4f5.png",
+    "static/media/index.css": "/login-spash-screen/static/media/ReneLight.2d813443.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.7639c89d.js",
+    "static/js/runtime-main.fe8d4df4.js",
     "static/js/2.4e7820a9.chunk.js",
-    "static/css/main.c51962fa.chunk.css",
+    "static/css/main.30627ebc.chunk.css",
     "static/js/main.2d7afd3f.chunk.js"
   ]
 }
